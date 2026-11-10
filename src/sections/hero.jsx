@@ -77,7 +77,7 @@ const hero = () => {
               <FaLinkedinIn className="text-white" />
             </a>
             <a
-              href="https://github.com/refuerzomaj"
+              href="https://github.com/jomardon-gabitanan"
               target="_blank"
               className="rounded-full border-1 w-10 h-10 border-white p-2.5 hover:bg-orange-500 hover:border-orange-500 hover:text-white transition-colors duration-300"
             >

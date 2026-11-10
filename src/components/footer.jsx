@@ -76,7 +76,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://github.com/refuerzomaj"
+                href="https://github.com/jomardon-gabitanan"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-full border w-10 h-10 border-white p-2.5 hover:bg-orange-500 hover:border-orange-500 transition"
