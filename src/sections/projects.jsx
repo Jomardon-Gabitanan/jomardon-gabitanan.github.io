@@ -11,6 +11,8 @@ import image9 from "../assets/agility.png";
 import image10 from "../assets/browsercache.png";
 import image11 from "../assets/dpwh.png";
 import image12 from "../assets/jesus-christ-bible.png";
+import image13 from "../assets/laundry.png";
+import image14 from "../assets/mswdo.png";
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
@@ -19,6 +21,41 @@ const Projects = () => {
   const [modalVisible, setModalVisible] = useState(false);
 
   const cards = [
+    {
+      image: image13,
+      title: "Laundry Management",
+      link: "https://refuerzomaj.github.io/Jesus-Christ-Bible/",
+      description:
+        "A React web application for managing laundry business operations, including customers, orders, services, payments, and reports..",
+      tags: [
+        "React",
+        "Typescript",
+        "Tailwind CSS",
+        "Node JS",
+        "Express JS",
+        "REST API",
+        "PostgreSQL",
+        "Git",
+      ],
+      category: "react",
+    },
+    {
+      image: image14,
+      title: "MSWDO",
+      link: "https://github.com/refuerzomaj/MSWDO",
+      description:
+        "Web application designed to manage social welfare services, beneficiary records, assistance requests, applications, and reports for the Municipal Social Welfare and Development Office of Obando.",
+      tags: [
+        "React",
+        "Tailwind CSS",
+        "Node JS",
+        "Express JS",
+        "REST API",
+        "PostgresSQL",
+        "Git",
+      ],
+      category: "react",
+    },
     {
       image: image12,
       title: "Jesus Christ & Bible",
@@ -50,7 +87,7 @@ const Projects = () => {
       title: "DPWH Archive",
       description:
         "Document archiving system using React, Node.js, and Express.",
-      tags: ["React", "Node JS", "Express JS", "API"],
+      tags: ["React", "Node JS", "Express JS", "REST API"],
       category: "react",
     },
     {

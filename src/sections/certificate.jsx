@@ -147,18 +147,6 @@ const CertificateModal = ({ cert, onClose }) => {
                     ${visible ? "scale-100 opacity-100" : "scale-95 opacity-0"}`}
         onClick={(e) => e.stopPropagation()}
       >
-        {/* <button
-          onClick={() => {
-            setVisible(false);
-            setTimeout(onClose, 300);
-          }}
-          className="absolute -top-4 -right-4 w-10 h-10 
-                     bg-black text-white rounded-full border
-                     border-white/20 cursor-pointer hover:bg-orange-500 transition"
-        >
-          ✕
-        </button> */}
-
         <img
           src={cert.image}
           alt={cert.title}

@@ -20,7 +20,7 @@ const about = () => {
                hover:shadow-[0_25px_50px_rgba(0,0,0,0.7)] hover:bg-orange-700/80 hover:border-orange-500/90 hover:cursor-pointer duration-300"
         >
           <p className=" text-1xl">
-            I’m a passionate Web Developer with 3 years of experience, who began
+            I’m a passionate Web Developer with 4 years of experience, who began
             my journey as a freelancer on Fiverr, creating functional and
             visually engaging websites for clients worldwide. I’ve since worked
             remotely with Agility Outsourcing, a UK-based company, and MG
