@@ -163,62 +163,42 @@ const Header = () => {
         <nav className="flex flex-col px-4 py-6 space-y-5">
           <a
             onClick={() => handleClick("home")}
-            className={`cursor-pointer transition-colors duration-300 ${
-              active === "home"
-                ? "text-orange-500 font-semibold"
-                : "text-white hover:text-orange-400"
-            }`}
+            className={linkClass("home")}
             href="#home"
           >
             HOME
           </a>
           <a
             onClick={() => handleClick("about")}
-            className={`cursor-pointer transition-colors duration-300 ${
-              active === "about"
-                ? "text-orange-500 font-semibold"
-                : "text-white hover:text-orange-400"
-            }`}
+            className={linkClass("about")}
             href="#about"
           >
             ABOUT ME
           </a>
           <a
             onClick={() => handleClick("skills")}
-            className={`cursor-pointer transition-colors duration-300 ${
-              active === "skills"
-                ? "text-orange-500 font-semibold"
-                : "text-white hover:text-orange-400"
-            }`}
+            className={linkClass("skills")}
             href="#skills"
           >
             SKILLS
           </a>
           <a
             onClick={() => handleClick("projects")}
-            className={`cursor-pointer transition-colors duration-300 ${
-              active === "projects"
-                ? "text-orange-500 font-semibold"
-                : "text-white hover:text-orange-400"
-            }`}
+            className={linkClass("projects")}
             href="#projects"
           >
             PROJECTS
           </a>
           <a
             onClick={() => handleClick("testimonials")}
-            className={`cursor-pointer transition-colors duration-300 ${
-              active === "testimonials"
-                ? "text-orange-500 font-semibold"
-                : "text-white hover:text-orange-400"
-            }`}
+            className={linkClass("testimonials")}
             href="#testimonials"
           >
             TESTIMONIALS
           </a>
           <a
             onClick={() => handleClick("contactform")}
-            className={linkClass("contact")}
+            className={linkClass("contactform")}
             href="#contactForm"
           >
             CONTACT
