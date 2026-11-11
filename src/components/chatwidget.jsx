@@ -285,7 +285,11 @@ export default function ChatWidget() {
         onClick={() => setOpen(!open)}
         className="fixed bottom-6 right-6 bg-orange-500 hover:bg-orange-500/90 hover:cursor-pointer transition-all duration-300 text-white p-4 rounded-full shadow-lg cursor-pointer"
       >
-        {open ? <IoCloseCircleSharp /> : <AiFillMessage />}
+        {open ? (
+          <IoCloseCircleSharp className="w-7 h-7" />
+        ) : (
+          <AiFillMessage className="w-7 h-7" />
+        )}
       </button>
 
       {/* Chat */}
