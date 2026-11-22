@@ -19,10 +19,9 @@ import {
   SiTailwindcss,
   SiGoogleanalytics,
   SiGoogletagmanager,
-  SiExpressdotcom,
   SiVercel,
   SiSupabase,
-  SiExpressdotcom,
+  SiExpress,
 } from "react-icons/si";
 
 /* ================= DATA ================= */
@@ -97,7 +96,7 @@ const skillsData = [
   {
     name: "Express.js",
     level: "90%",
-    icon: SiExpressdotcom,
+    icon: SiExpress,
     description: "REST APIs, middleware, routing, server-side development",
   },
   {
