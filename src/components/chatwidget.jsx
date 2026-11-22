@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import { FaChevronDown } from "react-icons/fa";
 import { AiFillMessage } from "react-icons/ai";
 import { IoCloseCircleSharp } from "react-icons/io5";
 
@@ -57,6 +56,10 @@ export default function ChatWidget() {
       minute: "2-digit",
     });
   };
+
+  useEffect(() => {
+    formatTime();
+  }, []);
 
   const hasKeyword = (msg) => {
     const keywords = [

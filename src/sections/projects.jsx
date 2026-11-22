@@ -24,7 +24,7 @@ const Projects = () => {
     {
       image: image13,
       title: "Laundry Management",
-      link: "https://refuerzomaj.github.io/Jesus-Christ-Bible/",
+      link: "https://laundry-management-ashen.vercel.app/",
       description:
         "A React web application for managing laundry business operations, including customers, orders, services, payments, and reports..",
       tags: [
