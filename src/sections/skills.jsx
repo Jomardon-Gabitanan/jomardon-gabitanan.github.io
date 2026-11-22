@@ -22,6 +22,7 @@ import {
   SiExpressdotcom,
   SiVercel,
   SiSupabase,
+  SiExpressdotcom,
 } from "react-icons/si";
 
 /* ================= DATA ================= */
