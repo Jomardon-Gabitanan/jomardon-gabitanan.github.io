@@ -36,13 +36,16 @@ const Projects = () => {
         "REST API",
         "PostgreSQL",
         "Git",
+        "Vercel",
+        "Supabase",
+        "Figma",
       ],
       category: "react",
     },
     {
       image: image14,
       title: "MSWDO",
-      link: "https://github.com/refuerzomaj/MSWDO",
+      link: "https://github.com/jomardon-gabitanan/MSWDO",
       description:
         "Web application designed to manage social welfare services, beneficiary records, assistance requests, applications, and reports for the Municipal Social Welfare and Development Office of Obando.",
       tags: [
@@ -59,7 +62,7 @@ const Projects = () => {
     {
       image: image12,
       title: "Jesus Christ & Bible",
-      link: "https://refuerzomaj.github.io/Jesus-Christ-Bible/",
+      link: "https://jomardon-gabitanan.github.io/Jesus-Christ-Bible/",
       description: "Single-page website about Jesus Christ and the Bible.",
       tags: ["React", "Tailwind CSS", "Figma", "Git"],
       category: "react",
