@@ -9,14 +9,19 @@ import {
   FaElementor,
   FaSquareGit,
   FaSquareGithub,
+  FaNodeJs,
+  FaFigma,
 } from "react-icons/fa6";
 import { TbBrandJavascript } from "react-icons/tb";
-import { BiLogoJquery } from "react-icons/bi";
+import { BiLogoJquery, BiLogoPostgresql } from "react-icons/bi";
 import {
   SiMysql,
   SiTailwindcss,
   SiGoogleanalytics,
   SiGoogletagmanager,
+  SiExpressdotcom,
+  SiVercel,
+  SiSupabase,
 } from "react-icons/si";
 
 /* ================= DATA ================= */
@@ -44,7 +49,7 @@ const skillsData = [
     name: "jQuery",
     level: "90%",
     icon: BiLogoJquery,
-    description: "DOM traversal, animations, legacy support",
+    description: "DOM traversal, animations, event handling",
   },
   {
     name: "PHP",
@@ -56,55 +61,92 @@ const skillsData = [
     name: "MySQL",
     level: "90%",
     icon: SiMysql,
-    description: "Database design, queries, optimization",
+    description: "Database design, SQL queries, data management",
   },
   {
     name: "Git",
     level: "90%",
     icon: FaSquareGit,
-    description: "Version control, branching, collaboration",
+    description: "Version control, branching, commits, merging",
   },
   {
     name: "GitHub",
     level: "90%",
     icon: FaSquareGithub,
-    description: "Repositories, CI workflows, team collaboration",
+    description: "Repository management, collaboration, code hosting",
   },
   {
     name: "WordPress",
     level: "90%",
     icon: FaWordpress,
-    description: "Custom themes, plugins, WooCommerce",
+    description: "Custom themes, plugins, CMS, WooCommerce",
   },
   {
     name: "Elementor Pro",
     level: "90%",
     icon: FaElementor,
-    description: "Advanced layouts, dynamic content, forms",
+    description: "Visual page building, dynamic content, custom layouts",
+  },
+  {
+    name: "PostgreSQL",
+    level: "90%",
+    icon: BiLogoPostgresql,
+    description: "Relational database design, SQL queries, data relationships",
+  },
+  {
+    name: "Express.js",
+    level: "90%",
+    icon: SiExpressdotcom,
+    description: "REST APIs, middleware, routing, server-side development",
   },
   {
     name: "React",
     level: "90%",
     icon: FaReact,
-    description: "Components, hooks, state management",
+    description:
+      "Reusable components, hooks, state management, API integration",
+  },
+  {
+    name: "Node.js",
+    level: "90%",
+    icon: FaNodeJs,
+    description: "Server-side JavaScript, backend logic, API development",
   },
   {
     name: "Tailwind CSS",
     level: "90%",
     icon: SiTailwindcss,
-    description: "Utility-first styling, responsive UI",
+    description: "Utility-first styling, responsive UI, reusable designs",
+  },
+  {
+    name: "Figma",
+    level: "90%",
+    icon: FaFigma,
+    description: "UI/UX design, wireframing, prototyping, AI-assisted design",
+  },
+  {
+    name: "Vercel",
+    level: "90%",
+    icon: SiVercel,
+    description: "Frontend deployment, hosting, CI/CD, preview deployments",
+  },
+  {
+    name: "Supabase",
+    level: "90%",
+    icon: SiSupabase,
+    description: "Backend services, PostgreSQL database, authentication, APIs",
   },
   {
     name: "Google Tag Manager",
     level: "90%",
     icon: SiGoogletagmanager,
-    description: "Tag deployment, analytics tracking",
+    description: "Tag deployment, event tracking, analytics implementation",
   },
   {
     name: "Google Analytics",
     level: "90%",
     icon: SiGoogleanalytics,
-    description: "Traffic analysis, conversion tracking",
+    description: "Website traffic analysis, user behavior, conversion tracking",
   },
 ];
 
